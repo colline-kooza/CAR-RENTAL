@@ -127,38 +127,46 @@ border: solid;
 .section2{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-padding: 60px;
-/* margin-left: 4rem; */
-margin-top: 70px;
-gap: 40px;
+    padding: 20px;
+    margin-top: 70px;
+    gap: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     background:white ;
-    width: 80%;
+    width:100%;
 
 }
 .divc{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 5px;
+    /* justify-content: start; */
+    align-items: center;
+    width: 100%;
 }
 .divd{
     display: flex;
-    /* flex-direction: ; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* gap: 20px; */
+    /* flex-direction: column; */
+    justify-content: start;
+    /* align-items: start; */
+    gap: 10px;
+    /* width: 100%; */
 }
 select{
-    padding: 10px 50px;
+    display: flex;
+    /* padding: 10px 20px; */
     margin-top: 20px;
-}
-input{
-padding: 10px 50px;
 
 }
+.select2{
+    display: flex;
+    /* height: 5vh; */
+    display: flex;
+}
+input{
+    /* padding: -10px 27px; */
+}
 label{
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 18px;
 }
 .btn{
@@ -340,6 +348,49 @@ align-items: center;
 .con1 button{
 margin-top: 40px;
 }
+.trying{
+    /* background-color: red; */
+}
+.debug-input{
+    padding: .2rem 2rem;
+}
+.select1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: red; */
+    margin-left: 0px;
+}
+.select3{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: red; */
+    margin-left: 0px;
+}
+.divd{
+    /* background-color: green; */
+}
+.select{
+    /* background-color: royalblue; */
+}
+.section2{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive */
 @media(max-width:768px){
@@ -428,10 +479,17 @@ margin-top: 40px;
        /* display: none; */
     } 
      header{
-        padding: -20rem;
+        display: none;
      }  
+     .divaa{
+        padding: 0px;
+     }
+     .section1 {
+        padding: 0px 0px;
+    }
+     
      .button1{
-padding: 10px 90px;
+      padding: 10px 90px;
      }
      .button2{
         padding: 10px 80px;
@@ -463,13 +521,7 @@ padding: 10px 90px;
     background-color:wheat;
    
 }
-.section2{
-    display: flex;
-    justify-content: start;
-    align-items: start;
-margin-top: 10rem;
-margin-left: 0px;
-}
+
 .divc{
     display: flex;
     margin-right: 20px;
@@ -480,7 +532,7 @@ select{
     padding: 10px 25px;
 }
 input{
-    padding: -90px;
+    padding: 20px;
 }
 .divd{
     display: flex;
@@ -533,7 +585,7 @@ input{
     font-size: 10px;
 }
 .section7 h2{
-    font: size 20px;
+    font: size 10px;
     margin-top: 40px;
 }
 .con2 img{
